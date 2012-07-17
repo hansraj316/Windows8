@@ -1,0 +1,26 @@
+﻿body {
+
+}
+
+.headerClass {
+    margin-top :45px;
+    margin-left: 120px;
+    
+}
+.contentClass {
+    margin-top: 31px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

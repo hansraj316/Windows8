@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Channel9Reader</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0.RC/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0.RC/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0.RC/js/ui.js"></script>
+
+    <!-- Channel9Reader references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <p>Content goes here</p>
+
+    <div id="main">
+    <header id="banner">
+        <button id="backbutton" class="win-backbutton">
+        </button>
+        <h1 id="maintitle" class="win-title">Welcome to Channel 9!</h1>
+    </header>
+    <section id="content">
+        <div id="articlelist" data-win-options="{itemDataSource: C9Data.ItemList.dataSource}" data-win-control="WinJS.UI.ListView"></div>
+    </section>
+</div>
+</body>
+</html>
